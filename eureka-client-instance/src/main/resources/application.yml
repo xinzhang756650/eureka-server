@@ -1,0 +1,12 @@
+server:
+  port: 8762
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+#是否将自己的IP注册到Eureka Server中，默认false
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: microservice-discovery-eureka-client
