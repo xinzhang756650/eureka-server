@@ -12,6 +12,7 @@
     <artifactId>eureka-server-instance</artifactId>
     <description>Demo project for Spring Boot</description>
 
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -20,9 +21,8 @@
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
-
     </dependencies>
 
 </project>
